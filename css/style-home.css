@@ -1,0 +1,89 @@
+/* CSS files add styling rules to your content */
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  background: rgba(229, 229, 229, 0.5);
+}
+.clear {
+  clear: both;
+}
+.menu-nav {
+  float: right;
+  padding: 20px 0px 30px 60px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.menu-nav ul {
+  padding-right: 0px;
+}
+.menu-nav li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 5px;
+}
+.menu-nav a {
+  text-decoration: none;
+  color: #004677;
+}
+
+#conteiner {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+#content {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: calc (1100px - 40px);
+  max-height: calc (600px - 20px);
+  padding: 20px;
+  width: 1120px;
+  height: 620px;
+}
+
+#white-home {
+  background-color: rgba(229, 229, 229, 0.5);
+  width: 50%;
+  height: 100%;
+}
+#blue-home {
+  background-color: #004677;
+  width: 50%;
+  height: 100%;
+}
+/*css text center*/
+.inf-center {
+  margin: 0 auto;
+  padding: 100px 0px 0px 140px;
+}
+.inf-center .text-center {
+  width: 400px;
+}
+.text-center #nome-h1 {
+  color: #004677;
+  font-size: 30px;
+}
+.text-center p {
+  margin: 1em 0 3em;
+  text-align: justify;
+  color: #004677;
+  font-size: 15px;
+}
+#icon a i {
+  color: #004677;
+  font-size: 20px;
+  padding: 40px 0;
+  margin: 2px;
+}
+#blue-home img {
+  position: relative;
+  left: 32%;
+  top: 15%;
+}
+img {
+  width: 400px;
+  height: 400px;
+}

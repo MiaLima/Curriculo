@@ -1,0 +1,95 @@
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+  }
+  /*CSS Geral*/
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: #004677;
+    background: #e5e5e5;
+  }
+  .clear {
+    clear: both;
+  }
+  
+  #conteiner {
+    width: 100%;
+  }
+  #content {
+    max-width: calc (980px - 80px);
+    padding: 20px;
+  }
+  
+  .menu-nav {
+    float: right;
+    padding: 50px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .menu-nav ul {
+    padding-right: 150px;
+  }
+  
+  .menu-nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    margin-right: 5px;
+  }
+  
+  .menu-nav ul li a {
+    text-decoration: none;
+    color: #004677;
+  }
+  
+  .center {
+    padding-left: 120px;
+  }
+  
+  .center h1 {
+    color: #004677;
+  }
+  
+  section {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    padding-left: 40px;
+  }
+  
+  section #text {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+  }
+  
+  #text div h3 {
+    color: #004677;
+  }
+  
+  #text div p {
+    margin-top: 20px;
+    color: #333333;
+    font-size: 15px;
+  }
+  
+  #text #icon i {
+    color: #c2d1d9;
+    margin-right: 8px;
+  }
+  
+  #text #icon i:hover {
+    color: #004677;
+  }
+  
+  section img {
+    width: 350px;
+    margin: 15px;
+  }
+  
